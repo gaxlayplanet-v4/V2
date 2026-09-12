@@ -15,9 +15,7 @@ function isValidUUID(uuid) {
     return uuidRegex.test(uuid);
 }
 
-if (!isValidUUID(userID)) {
-    throw new Error("Invalid UUID! Generate one at https://www.uuidgenerator.net");
-}
+
 
 // ==================== WEBSOCKET CONSTANTS ====================
 const WS_READY_STATE_OPEN = 1;
